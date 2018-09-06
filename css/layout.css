@@ -24,4 +24,47 @@
 
 /* Posititoning Classes */
 
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
 
+#first_section {
+  grid-column: 1 / span 3;
+}
+
+#brands_label{
+  grid-column: 1/ span 3;
+}
+
+#featured_brands {
+  grid-column: 1 / span 2;
+}
+
+#archive {
+  grid-column: 3 / span 1;
+  float: right;
+}
+
+#shoe_one{
+  grid-column: 1/span 1;
+}
+
+#shoe_two{
+  grid-column: 2/span 1;
+}
+
+#shoe_three {
+  grid-column: 3/span 1;
+}
+
+.border_right{
+  grid-column: auto/span 1;
+  float: left;
+}
+
+#third_column{
+    grid-column: 3/span 1;
+}
