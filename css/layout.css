@@ -24,4 +24,27 @@
 
 /* Posititoning Classes */
 
+.single {
+  width: 32%;
+  float: left;
+}
 
+.double {
+  width: 66%;
+  float: left;
+  margin-right: 2%;
+}
+
+.single-small {
+  width: 32%;
+  margin-right: 2%;
+  float: left;
+  margin-top: 20px;
+}
+
+#last {
+  width: 32%;
+  margin-right: 0;
+  float: left;
+  margin-top: 20px;
+}
