@@ -23,5 +23,31 @@
 }
 
 /* Posititoning Classes */
-
-
+.col-1{
+  float: left;
+  width: 31%;
+  margin: 10px 0 0 0;
+}
+.col-2{
+  float: left;
+  width: 32%;
+  margin: 10px 0 0 0;
+}
+.col-3{
+float: left;
+width: 32%;
+margin: 10px 17px 0 17px;
+}
+.archive{
+  float: left;
+  width: 32%;
+  margin: 0 0 10px 10px;
+}
+.featured-brand{
+  float: left;
+  width: 65%;
+  margin: 0 5px 10px 0;
+}
+.white-box{
+  background: white;
+}
